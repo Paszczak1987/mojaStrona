@@ -1,0 +1,205 @@
+.about
+   font-family: VGASqPx, monospace
+   font-size: 24px
+   position: relative
+   min-height: 100vh
+   display: flex
+   flex-wrap: wrap
+   justify-content: flex-end
+   align-content: flex-start
+   user-select: none
+   padding: 10px 5px 5px 5px
+   @media (min-width: 991px)
+      display: block
+   .icon
+      padding: 5px
+      text-align: center
+      cursor: pointer
+      @media (min-width: 991px)
+         position: absolute
+      img
+         display: block
+         margin: 0 auto
+         width: 35px
+         height: 35px
+      span
+         display: block
+         height: 25px
+         color: lightgray
+         text-shadow: 1px 1px 1px black
+   .icon.one
+      top: 15%
+      left: 5%
+   .icon.two
+      top: calc(15% + 100px)
+      left: 5% 
+   .aboutMe,
+   .profile
+      display: none
+      width: 100%
+      background-color: #020013
+      color: #999
+      margin-bottom: 5px
+      box-shadow: 4px 4px rgba(0,0,0, .5)
+      @media (min-width: 991px)
+         position: absolute
+         box-shadow: 10px 10px rgba(0,0,0, .5)
+   .show
+      display: block
+   .aboutMe
+      top: 25%
+      left: 17%
+      @media (min-width: 991px)
+         width: 42%        
+   .profile
+      top: 37%
+      left: 48%
+      @media (min-width: 991px)
+         width: 35%
+   .titleBarWrap
+      display: flex
+      justify-content: space-between
+      align-items: center
+      background-color: #2b2b2b
+      border-bottom: 6px ridge #a00
+      .titleBar
+         height: 35px
+         position: relative
+         width: 100%
+         padding-left: 10px
+         cursor: grab
+         .title
+            color: chocolate
+            line-height: 33px
+         .title::after
+            content: ' [v1.0]'
+            color: #ff5
+   .close
+      padding-right: 10px
+      color: #5ff
+      cursor: pointer
+   .close::before
+      content: '['
+      color: #0aa
+   .close::after
+      content: ']'
+      color: #0aa
+   .close:hover
+      color: #f55
+   .close:hover::before,
+   .close:hover::after
+      color: #a00
+   article
+      display: flex
+      flex-direction: column
+      padding: 0 10px 20px 10px
+      .btn
+         color: #5ff
+         padding: 15px 0px 0px 5px
+         cursor: pointer
+      .btn:hover
+         color: #ff5
+      .btn::before
+         content: "\00bb\A0"
+         color: #0aa
+      .btn:hover::before
+         content: "\25BA\A0"
+         color: #5ff
+      .paragraph
+         display: none
+         padding: 0 15px 0 22px
+         text-indent: 20px
+      .paragraph.printed
+         display: block
+         .innerPar
+            color: white
+         .cursor
+            opacity: 0
+         .cursor.active
+            opacity: 1         
+         .cursor::before
+            content: "\2588\A0"
+            color: white   
+      ul.paragraph
+         padding: 0px
+         list-style: none
+         margin-top: 5px
+         @media (min-width: 360px)
+            padding: 0 15px 0 22px
+         li
+            color: white
+            .org
+               display: block
+               @media (min-width: 360px)
+                  padding-left: 22px
+               color: #999 
+               a
+                  text-decoration: none
+                  color: #5ff
+                  img
+                     height: 12px
+                     margin: 0 5px 0 0
+            .org::before
+               content: "\25cb\A0"
+               color: #bb5
+         li::before
+            content: "\00bb\A0"
+            color: #ff5
+   article.profileArticle
+      display: flex
+      justify-content: center
+      padding-top: 15px
+      flex-wrap: wrap
+      flex-direction: row
+      .left
+         span
+            display: block
+            height: 24px
+            color: white
+         span::before,
+         span::after
+            color: green
+         .rowBefore::before
+            content: "\A0\2552\2550\2550\2550\2550\2550\2550\2550\2550\2550\2550\A0"    
+         .rowBefore::after
+            content: "\A0\2550\2550\2550\2550\2550\2550\2550\2550\2550\2550\2550\2555\a0"
+         .space
+            display: flex
+            justify-content: space-between  
+            margin: -5px 0  
+         .space::before,
+         .space::after
+            content: "\A0\2502\A0"
+         .row
+            display: flex
+            justify-content: space-between          
+            a          
+               font-size: 38px
+               text-decoration: none
+               padding: 0 15px
+               color: #5ff
+               i
+                  transform: translate(0%,-14%)
+            a:hover
+               color: #ff5
+         .row::before
+            content: "\A0\2502\A0"           
+         .row::after
+            content: "\2502\A0"
+         .rowAfter::before
+            content: "\A0\2558\2550\2550\2550\2550\2550\2550\2550\2550\2550\2550\A0"    
+         .rowAfter::after
+            content: "\A0\2550\2550\2550\2550\2550\2550\2550\2550\2550\2550\255b\A0"
+      .right
+         display: flex
+         justify-content: center
+         p
+            width: 263px
+            padding: 15px 15px 0 15px
+            text-align: center
+            color: 
+         
+            
+      
+
+

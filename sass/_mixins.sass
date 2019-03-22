@@ -1,0 +1,36 @@
+=h1Title()
+   font-size: 
+   color: white
+   text-align: center
+   font-family: Oswald, sans-serif
+   padding-top: 25px
+   padding-bottom: 25px
+   width: 100%
+
+=skillBar($progress, $marginTop)
+   width: 250px
+   height: 50px
+   margin: 20px
+   @media (min-width: 1680px)
+      margin: 40px
+   display: flex
+   flex-wrap: wrap
+   align-items: center
+   img
+      width: 25%
+   .name
+      height: 100%
+      padding-left: 7px
+      width: 75%
+      p
+         font-family: Oswald, sans-serif
+         font-size: 20px
+         color: white
+         display: block
+         margin: $marginTop 0 2px 5px
+         text-shadow: 1px 1px black
+      div
+         width: 100%
+         height: 10px
+         margin-left: 5px
+         background: linear-gradient(left, MediumSpringGreen $progress, rgba(0,0,0,.25) $progress)

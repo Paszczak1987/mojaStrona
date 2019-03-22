@@ -1,0 +1,39 @@
+.skills
+   padding-top: 60px
+   @media (min-width: 1024px)
+      padding-top: 86px
+   min-height: 100vh
+   position: relative
+   .skillGallery
+      max-width: calc(290px * 5)
+      margin: 0 auto
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+      @media (min-width: 1024px)
+         min-width: calc(290px * 3)
+         justify-content: flex-start
+         position: absolute
+         transform: translate(-50%,-50%)
+         top: 50%
+         left: 50%
+      @media (min-width: 1680px)
+         min-width: calc(330px * 4)
+      .barJS
+         +skillBar(75%, 14px)
+      .barHTML
+         +skillBar(80%, 14px)
+      .barSASS
+         +skillBar(80%, 14px)
+      .barJQUERY
+         +skillBar(40%, 14px)
+      .barCSS
+         +skillBar(80%, 14px)
+      .barREACT
+         +skillBar(40%, 14px)
+      .barRWD
+         +skillBar(50%, 14px)
+      .barBOOTSTRAP
+         +skillBar(10%, 14px) 
+      .barGIT
+         +skillBar(3%, 14px)

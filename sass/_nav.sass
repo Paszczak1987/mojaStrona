@@ -1,0 +1,76 @@
+nav
+   color: white
+   font-family: oswald, sans-serif
+   font-size: 25px
+   position: fixed
+   top: 15px
+   left: 15px
+   z-index: 2
+   background-color: rgba(50,50,50,.9)
+   border-radius: 6px
+   transition: right .4s, margin-top .4s
+   @media (min-width: 1024px) // Gdzie ma się znajdować na desktopach
+      top: calc(45vh - 50px - 15px)
+      left: auto
+      right: calc(30% + 30px)
+      position: absolute
+      background-color: transparent
+      font-size: 22px
+   @media (min-width: 1680px)
+      top: calc(50vh - 50px - 15px)
+      right: calc(26% + 30px)
+      font-size: 25px
+   .navToggler
+      display: block
+      font-size: 30px
+      width: 70px
+      height: 50px
+      padding-top: 9px 
+      text-align: center
+      border-radius: 6px
+      transition: .3s
+      margin-left:  auto
+      @media (min-width: 1024px)
+         display: none
+   ul
+      list-style: none
+      width: 70px
+      height: 0px
+      overflow: hidden
+      transition: .3s
+      display: flex
+      flex-direction: column
+      justify-content: space-around
+      @media (min-width: 1024px)
+         height: 50px
+         width: auto
+         flex-direction: row
+         align-items: center
+      li
+         transition: .2s
+         @media (min-width: 1024px)
+            cursor: pointer
+            margin: 0 5px
+            border: 2px solid white
+            padding: 0 5px
+         @media (min-width: 1280px)
+            margin: 0 10px
+            padding: 0 10px
+         @media (min-width: 1680px)
+            margin: 0 15px
+            padding: 0 15px
+      li.marked
+         @media (min-width: 991px)
+            background-color: #000
+   ul.active
+      width: 130px
+      height: 240px
+      padding: 0 5px
+@media (min-width: 1024px) // Jak ma się zachować na desktopach po scrollu
+   nav.active
+      position: fixed
+      top: 0
+      right: 57%
+      margin-top: 20px
+
+       

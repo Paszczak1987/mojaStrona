@@ -1,0 +1,77 @@
+.portfolio
+    padding-top: 100px
+    .gallery
+        display: flex
+        width: 100%
+        // background-color: rgba(0,0,0, .05)
+        flex-wrap: wrap
+        @media (min-width: 533px)
+            padding: 0 5vw
+        @media (min-width: 991px)
+            padding: 0 5vw
+        @media (min-width: 1199px)
+            padding: 0 4.6vw
+        @media (min-width: 1680px)
+            padding: 0 5%
+        a
+            display: block
+            background-color: grey 
+            margin: 0 10vw 20vw 10vw
+            width: 80vw
+            height: 60vw
+            transition: .2s
+            @media (min-width: 533px) // 2
+                margin: 0 2.5vw 10vw 2.5vw
+                width: 40vw
+                height: 30vw
+            @media (min-width: 991px) // 3
+                margin: 0 1.5vw 6vw 1.5vw
+                width: 27vw
+                height: 20.25vw
+            @media (min-width: 1199px) // 4
+                margin: 0 1.15vw 4.6vw 1.15vw
+                width: 20vw
+                height: 15vw
+            @media (min-width: 1680px) // 4
+                margin: 0 2.5% 5% 2.5%
+                width: 15%
+                height: calc(1680px * 0.1125)
+            div
+                width: 100%
+                height: 100%  
+                background-repeat: no-repeat
+        a:nth-child(1) div
+                background-image: url('../img/myCalc.JPG')
+                background-position: center center
+                background-size: cover             
+        a:nth-child(2) div
+                background-image: url('../img/myGame.png')
+                background-position: center center
+                background-size: cover             
+        a:nth-child(3) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/WPOeej/image/small.png')
+                background-position: center center
+                background-size: cover                   
+        a:nth-child(4) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/BMLMGX/image/small.png')
+                background-position: 20% 50%
+                background-size: 190%
+        a:nth-child(5) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/pxqJxy/image/small.png')
+                background-position: center center
+                background-size: cover   
+        a:nth-child(6) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/XxPyaG/image/small.png')
+                background-position: center center
+                background-size: cover   
+        a:nth-child(7) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/WYRLvz/image/small.png')
+                background-position: center center
+                background-size: cover   
+        a:nth-child(8) div
+                background-image: url('https://codepen.io/Paszczak1987/pen/RqORvr/image/small.png')
+                background-position: center center
+                background-size: cover
+        a:hover
+            transform: scale(1.1)
+            box-shadow: 10px 10px rgba(0,0,0, .5)
