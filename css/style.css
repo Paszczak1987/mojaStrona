@@ -1278,8 +1278,55 @@ nav ul.active {
   width: 100%;
   height: 10px;
   margin-left: 5px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(3%, MediumSpringGreen), color-stop(3%, rgba(0, 0, 0, 0.25)));
-  background: linear-gradient(left, MediumSpringGreen 3%, rgba(0, 0, 0, 0.25) 3%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, MediumSpringGreen), color-stop(30%, rgba(0, 0, 0, 0.25)));
+  background: linear-gradient(left, MediumSpringGreen 30%, rgba(0, 0, 0, 0.25) 30%);
+}
+
+.skills .skillGallery .barNODE {
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 1680px) {
+  .skills .skillGallery .barNODE {
+    margin: 40px;
+  }
+}
+
+.skills .skillGallery .barNODE img {
+  width: 25%;
+}
+
+.skills .skillGallery .barNODE .name {
+  height: 100%;
+  padding-left: 7px;
+  width: 75%;
+}
+
+.skills .skillGallery .barNODE .name p {
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  color: white;
+  display: block;
+  margin: 14px 0 2px 5px;
+  text-shadow: 1px 1px black;
+}
+
+.skills .skillGallery .barNODE .name div {
+  width: 100%;
+  height: 10px;
+  margin-left: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(MediumSpringGreen), color-stop(0%, rgba(0, 0, 0, 0.25)));
+  background: linear-gradient(left, MediumSpringGreen 0%, rgba(0, 0, 0, 0.25) 0%);
 }
 
 .contact {
