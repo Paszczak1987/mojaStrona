@@ -381,48 +381,54 @@ nav ul.active {
 }
 
 .portfolio .gallery a:nth-child(1) div {
-  background-image: url("../img/myCalc.JPG");
+  background-image: url("../img/myTodoapp.jpg");
   background-position: center center;
   background-size: cover;
 }
 
 .portfolio .gallery a:nth-child(2) div {
-  background-image: url("../img/myGame.png");
+  background-image: url("../img/myCalc.JPG");
   background-position: center center;
   background-size: cover;
 }
 
 .portfolio .gallery a:nth-child(3) div {
-  background-image: url("https://codepen.io/Paszczak1987/pen/WPOeej/image/small.png");
+  background-image: url("../img/myGame.png");
   background-position: center center;
   background-size: cover;
 }
 
 .portfolio .gallery a:nth-child(4) div {
+  background-image: url("https://codepen.io/Paszczak1987/pen/WPOeej/image/small.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.portfolio .gallery a:nth-child(5) div {
   background-image: url("https://codepen.io/Paszczak1987/pen/BMLMGX/image/small.png");
   background-position: 20% 50%;
   background-size: 190%;
 }
 
-.portfolio .gallery a:nth-child(5) div {
+.portfolio .gallery a:nth-child(6) div {
   background-image: url("https://codepen.io/Paszczak1987/pen/pxqJxy/image/small.png");
   background-position: center center;
   background-size: cover;
 }
 
-.portfolio .gallery a:nth-child(6) div {
+.portfolio .gallery a:nth-child(7) div {
   background-image: url("https://codepen.io/Paszczak1987/pen/XxPyaG/image/small.png");
   background-position: center center;
   background-size: cover;
 }
 
-.portfolio .gallery a:nth-child(7) div {
+.portfolio .gallery a:nth-child(8) div {
   background-image: url("https://codepen.io/Paszczak1987/pen/WYRLvz/image/small.png");
   background-position: center center;
   background-size: cover;
 }
 
-.portfolio .gallery a:nth-child(8) div {
+.portfolio .gallery a:nth-child(9) div {
   background-image: url("https://codepen.io/Paszczak1987/pen/RqORvr/image/small.png");
   background-position: center center;
   background-size: cover;
