@@ -1331,8 +1331,8 @@ nav ul.active {
   width: 100%;
   height: 10px;
   margin-left: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(MediumSpringGreen), color-stop(0%, rgba(0, 0, 0, 0.25)));
-  background: linear-gradient(left, MediumSpringGreen 0%, rgba(0, 0, 0, 0.25) 0%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(5%, MediumSpringGreen), color-stop(5%, rgba(0, 0, 0, 0.25)));
+  background: linear-gradient(left, MediumSpringGreen 5%, rgba(0, 0, 0, 0.25) 5%);
 }
 
 .contact {
